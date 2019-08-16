@@ -1,0 +1,2 @@
+# QHPageViewController
+更简单的PageViewController，解决UIPageViewController各种崩溃问题。

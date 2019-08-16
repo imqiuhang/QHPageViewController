@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		460133C4F08EB549A81284FCACC819F3 /* QHPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BAD0E87105D7E2296CDCEF0BC9907 /* QHPageViewController-dummy.m */; };
+		460133C4F08EB549A81284FCACC819F3 /* QHPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358070A77974B03D0889A558296AAB4 /* QHPageViewController-dummy.m */; };
 		84A5A8A5DECC98E2332CBD65BBE3AE1D /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5AB4BA538EA9FA0E41A0E9A52321F0 /* Pods-Example-dummy.m */; };
-		CB3AFB52A3807B5B4B140293800D2DAD /* QHPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B25105CF2518633A268376298FD94A5 /* QHPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE297EFCE5DFF1F60BF9DE145375A454 /* QHPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EE458EC5176DFD18E79D45D8E009C9 /* QHPageViewController.m */; };
+		CB3AFB52A3807B5B4B140293800D2DAD /* QHPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F139D8932E30A92A949E0E20C3D12D /* QHPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE297EFCE5DFF1F60BF9DE145375A454 /* QHPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A89AFE3560B2EE5EF15B467AFABC847 /* QHPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B25105CF2518633A268376298FD94A5 /* QHPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QHPageViewController.h; path = QHPageViewController/QHPageViewController.h; sourceTree = "<group>"; };
 		1B5AB4BA538EA9FA0E41A0E9A52321F0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		1D5BAD0E87105D7E2296CDCEF0BC9907 /* QHPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QHPageViewController-dummy.m"; sourceTree = "<group>"; };
+		35F139D8932E30A92A949E0E20C3D12D /* QHPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QHPageViewController.h; path = QHPageViewController/QHPageViewController.h; sourceTree = "<group>"; };
 		39535A34997BBA5C297AF7B3961F0E5E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		46792B50EE9847311E90CA1867B0DA7D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		5BB6FA8D30F6AC575FD0C3930DC6FE5F /* QHPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QHPageViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6358070A77974B03D0889A558296AAB4 /* QHPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QHPageViewController-dummy.m"; sourceTree = "<group>"; };
 		6EC9EA8ECFB70BF7F327AF8BACE708C4 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		762C063E109B0CC10920E3D7DF206767 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7E4D19405DA6EE612E7907B8C551701B /* QHPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QHPageViewController.xcconfig; sourceTree = "<group>"; };
+		7E772ED0955C4B8113B4994B0485C96E /* QHPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QHPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		8A89AFE3560B2EE5EF15B467AFABC847 /* QHPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QHPageViewController.m; path = QHPageViewController/QHPageViewController.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7EE458EC5176DFD18E79D45D8E009C9 /* QHPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QHPageViewController.m; path = QHPageViewController/QHPageViewController.m; sourceTree = "<group>"; };
 		CB272EAF353D87E8355293BCE24C333D /* libQHPageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQHPageViewController.a; path = libQHPageViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5C7088B5EE8DB061839422B6AA261C6 /* QHPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QHPageViewController-prefix.pch"; sourceTree = "<group>"; };
 		E724CAF982949F7E151A65114587B8E3 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2D7CC0B7080890A4A7EF2FC3DE29ECD /* QHPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QHPageViewController.xcconfig; sourceTree = "<group>"; };
 		F8EDBA7DD30D1569A8DA1C185EE3BA21 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,44 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8702BE573C274DC2DF95360FEF15D597 /* Development Pods */ = {
+		503D41E523F592A46E203A586A4A3D8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8D893EDB1C61BB19A5CEF41BC0CCFD92 /* QHPageViewController */,
+				E93479C38D149DE5CEDD72DC30220320 /* QHPageViewController */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		87FB6EC1D298FC67ECE8E4FD40146EA7 /* Pod */ = {
+		5B5028C02B771C28E1C1DC2910F1BB15 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5BB6FA8D30F6AC575FD0C3930DC6FE5F /* QHPageViewController.podspec */,
-				762C063E109B0CC10920E3D7DF206767 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8D893EDB1C61BB19A5CEF41BC0CCFD92 /* QHPageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0B25105CF2518633A268376298FD94A5 /* QHPageViewController.h */,
-				A7EE458EC5176DFD18E79D45D8E009C9 /* QHPageViewController.m */,
-				87FB6EC1D298FC67ECE8E4FD40146EA7 /* Pod */,
-				8DED450F5B12DA77B44A2A7775C26AB4 /* Support Files */,
-			);
-			name = QHPageViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8DED450F5B12DA77B44A2A7775C26AB4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E4D19405DA6EE612E7907B8C551701B /* QHPageViewController.xcconfig */,
-				1D5BAD0E87105D7E2296CDCEF0BC9907 /* QHPageViewController-dummy.m */,
-				E5C7088B5EE8DB061839422B6AA261C6 /* QHPageViewController-prefix.pch */,
+				F2D7CC0B7080890A4A7EF2FC3DE29ECD /* QHPageViewController.xcconfig */,
+				6358070A77974B03D0889A558296AAB4 /* QHPageViewController-dummy.m */,
+				7E772ED0955C4B8113B4994B0485C96E /* QHPageViewController-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QHPageViewController";
+			path = "../Target Support Files/QHPageViewController";
 			sourceTree = "<group>";
 		};
 		9A0AA6DF7DF91BD434D3483DE053D392 /* Products */ = {
@@ -125,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8702BE573C274DC2DF95360FEF15D597 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				503D41E523F592A46E203A586A4A3D8B /* Pods */,
 				9A0AA6DF7DF91BD434D3483DE053D392 /* Products */,
 				D5B8D0B62F1C86934FF4C6E7C9986E7F /* Targets Support Files */,
 			);
@@ -145,6 +122,17 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93479C38D149DE5CEDD72DC30220320 /* QHPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				35F139D8932E30A92A949E0E20C3D12D /* QHPageViewController.h */,
+				8A89AFE3560B2EE5EF15B467AFABC847 /* QHPageViewController.m */,
+				5B5028C02B771C28E1C1DC2910F1BB15 /* Support Files */,
+			);
+			name = QHPageViewController;
+			path = QHPageViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +310,7 @@
 		};
 		4C5A7CEDA4CDB3D2018031521AC5658F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E4D19405DA6EE612E7907B8C551701B /* QHPageViewController.xcconfig */;
+			baseConfigurationReference = F2D7CC0B7080890A4A7EF2FC3DE29ECD /* QHPageViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -453,7 +441,7 @@
 		};
 		F26B0B7BFBD26822F08F6E3473F6F57B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E4D19405DA6EE612E7907B8C551701B /* QHPageViewController.xcconfig */;
+			baseConfigurationReference = F2D7CC0B7080890A4A7EF2FC3DE29ECD /* QHPageViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -4,8 +4,7 @@ platform :ios, '8.0'
 
 target 'Example' do
 
-  pod 'QHPageViewController', :path => '../QHPageViewController.podspec'
-
+  pod 'QHPageViewController'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
