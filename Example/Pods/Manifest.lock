@@ -1,0 +1,16 @@
+PODS:
+  - QHPageViewController (0.1.0)
+
+DEPENDENCIES:
+  - QHPageViewController (from `../QHPageViewController.podspec`)
+
+EXTERNAL SOURCES:
+  QHPageViewController:
+    :path: "../QHPageViewController.podspec"
+
+SPEC CHECKSUMS:
+  QHPageViewController: ea00094566a1344b6e4b826e2b1fca0d25cc0f1d
+
+PODFILE CHECKSUM: adf6a56e16d47b0c474343b12979c66331dfc3da
+
+COCOAPODS: 1.6.1
