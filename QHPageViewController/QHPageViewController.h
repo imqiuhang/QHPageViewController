@@ -130,6 +130,10 @@ typedef NS_ENUM(NSUInteger, QHPageViewControllerNavigationOrientation) {
 - (void)pageViewController:(QHPageViewController *)pageViewController
     draggeStatusDidChanged:(BOOL)isDragging;
 
+//控制器已经稳定
+- (void)pageViewController:(QHPageViewController *)pageViewController
+                   currentIndex:(NSInteger)index;
+
 @end
 
 @protocol  QHPageViewControllerDataSource <NSObject>
