@@ -1,7 +1,7 @@
 # QHPageViewController
 更简单的使用PageViewController，解决UIPageViewController各种姿势的崩溃问题以及繁琐的代理使用。
 
-设计用于应对类似于抖音, 映客, 考拉等类型 APP, 滑动切换视频/直播控制器, 并针对此类场景, 优化了控制器生命周期及页面缓存设计.
+设计用于应对类似于抖音, 映客, 考拉等类型 APP, 滑动切换视频/直播控制器, 并针对此类场景, 优化了控制器生命周期及页面缓存.
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYText/master/LICENSE)
 
