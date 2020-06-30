@@ -337,6 +337,10 @@ typedef NS_ENUM(NSUInteger, HTCMPageLifeStatus) {
         [vc endAppearanceTransition];
         vc.cmpage_lifeStaus = HTCMPageLifeStatusDidAppear;
     }
+    
+    if (self.delegate&&[self.delegate respondsToSelector:@selector(pageViewController:currentIndex:)]) {
+        [self.delegate pageViewController:self currentIndex:self.currentIndex];
+    }
 }
 
 #pragma mark - private getter
