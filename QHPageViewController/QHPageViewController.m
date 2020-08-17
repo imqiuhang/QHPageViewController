@@ -139,7 +139,7 @@ typedef NS_ENUM(NSUInteger, HTCMPageLifeStatus) {
         [self __removeAllControllers];
     }
     
-    if (self.targetWaitMoveToIndex!=nil) {
+    if (self.targetWaitMoveToIndex!=nil && self.numberOfViewControllers>0) {
         [self moveToControllerAtIndex:self.targetWaitMoveToIndex.integerValue animation:NO];
         self.targetWaitMoveToIndex = nil;
     }
